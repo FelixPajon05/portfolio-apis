@@ -1,0 +1,39 @@
+
+<div class="start">
+    <div class="container">
+        <div class="row">
+            <h1 class="text-center text-white">Country data of the United States Mexican</h1>
+        </div>
+        <div class="row">
+            @for (item of data; track $index) {
+                <div class="col">
+                    <div class="card my-4">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ item.title }}</h5>
+                            <p class="card-text mb-0"><strong>Valor:</strong> {{ item.population }}</p>
+                            <p class="card-text mb-0"><strong>Descripción:</strong> {{ item.description }}</p>
+                            <p class="card-text mb-0"><strong>Periodo:</strong> {{ item.period }}</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+<!-- <div class="form py-5">
+    <h5 class="text-center">Consultation of sociodemographic and economic indicators by state</h5>
+    <div class="container">
+        <div class="container text-center">
+            @if (view_entity_data) {
+                <div class="row d-flex justify-content-center">
+                    @for (state of entities; track $index) {
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mx-2 g-2 shadow-state" (click)="consultDataByState(state.id)">
+                            {{ state.name }}
+                        </div>
+                    }
+                </div>
+            } @else {
+            }
+        </div>
+    </div>
+</div> -->

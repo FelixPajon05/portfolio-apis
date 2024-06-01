@@ -1,0 +1,41 @@
+
+
+#perfilPhoto {
+    border-radius:      50%/60% 60% 40% 40%;
+    width:              25rem;
+}
+
+.btn-back {
+    border:             2px solid #62F2E8;
+    color:              #62F2E8;
+    cursor:             pointer;
+    font-size:          16px;
+    padding:            14px 28px;
+    text-decoration-line: none;
+}
+
+.card {
+    background-color: #111111;
+    height:             17rem;
+}
+
+.card:hover {
+    border: 2px solid #62F2E8;
+}
+
+#icon {
+    color: #62F2E8;
+}
+
+.projects {
+    background-color: #0B0C0F;
+}
+
+a {
+    color: white;
+}
+
+#shadow-cube:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.75);
+}

@@ -1,0 +1,19 @@
+
+.start {
+    height: 100vh;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,48,87,0.4374124649859944) 0%, rgba(0,48,87,1) 100%);
+}
+
+.form {
+    background-color: #E0E6EB;
+}
+
+.card {
+    height: 10rem;
+}
+
+.shadow-state {
+    cursor: pointer;
+    border: 2px solid #000000;
+}

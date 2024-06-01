@@ -1,0 +1,28 @@
+
+.bg-cube {
+    background-color: #000000!important;
+}
+
+.bg-main {
+    background-color: #62F2E8!important;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-gray {
+    color: #6A6768;
+}
+
+.text-cube {
+    color: #62F2E8;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none!important;
+}
